@@ -1,0 +1,11 @@
+pandas
+numpy
+python-dotenv
+tqdm
+scikit-learn
+#tensorflow
+tensorflow[and-cuda]
+jupyter
+matplotlib
+seaborn
+networkx
