@@ -28,7 +28,7 @@ def _load_raw(name: str) -> pd.DataFrame:
     }
     df = df.rename(columns=renames)
 
-    # Normalize target column (kc2 uses 'problems')
+    # Normalize target column
     if "problems" in df.columns:
         df = df.rename(columns={"problems": "defects"})
 
